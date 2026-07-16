@@ -101,6 +101,46 @@
 ### Langkah Instalasi
 
 **1. Clone Repositori**
-```bash
+```
 git clone https://github.com/dimssrmdn01/data-agent.git
 cd data-agent
+```
+
+**2. Buat Virtual Environment**
+
+```
+python -m venv env
+# Untuk Windows:
+env\Scripts\activate
+# Untuk Mac/Linux:
+source env/bin/activate
+```
+
+**3. Install Dependencies**
+```
+pip install -r requirements.txt
+```
+**4. Jalankan Aplikasi**
+```
+streamlit run app.py
+```
+## Cara Penggunaan
+1. Buka aplikasi di browser (biasanya berjalan di `http://localhost:8501`).
+2. Masukkan **Groq API Key** Anda pada menu *sidebar* di sebelah kiri.
+3. Unggah *file* dataset Anda dengan format `.csv`.
+4. Tunggu beberapa detik hingga AI memberikan ringkasan data otomatis.
+5. Mulai mengobrol!
+
+##  Struktur Direktori
+
+```text
+📦 data-agent
+ ┣ 📜 app.py            # Antarmuka pengguna (Streamlit) & Logika Memori
+ ┣ 📜 core_agent.py     # Konfigurasi Mesin AI & LangChain
+ ┣ 📜 requirements.txt  # Daftar dependensi Python
+ ┣ 📜 README.md         # Dokumentasi proyek
+ ┗ 📜 LICENSE           # MIT License
+```
+## Author
+Dibuat oleh Dimas Arya Ramadhan
+Jangan ragu untuk melakukan fork, mengeksplorasi kode, dan memberikan ⭐ jika proyek ini bermanfaat!
