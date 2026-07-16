@@ -47,7 +47,6 @@ if uploaded_file:
             
         with st.chat_message("assistant", avatar="🤖"):
             with st.spinner("Memproses..."):
-                # GUNAKAN KELAS KUSTOM KITA DI SINI
                 llm = SafeChatGroq(model="llama-3.3-70b-versatile", temperature=0)
                 
                 agent = create_pandas_dataframe_agent(
