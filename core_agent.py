@@ -14,8 +14,9 @@ def create_agent(df, api_key):
         df, 
         verbose=True, 
         allow_dangerous_code=True,
-        max_iterations=4,                
-        early_stopping_method="generate" 
+        max_iterations=5,                 
+        early_stopping_method="generate",
+        handle_parsing_errors=True       
     )
     
     return agent
