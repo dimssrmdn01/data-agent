@@ -266,5 +266,4 @@ furnished to do so, subject to the following conditions...
 - [ ] Deployment di cloud (Streamlit Cloud, HuggingFace)
 
 ##  Author
-**Dimas Arya Ramadhan**
 Dibuat dengan ❤️ oleh Dimas Arya Ramadhan
