@@ -9,7 +9,7 @@ from core_agent import create_agent
 load_dotenv()
 
 # ===========================================================
-# ICON SYSTEM — custom line/solid SVG icons (no emoji anywhere)
+# ICON SYSTEM 
 # ===========================================================
 _ICON_PATHS = {
     "sparkles": ("M12 2L13.8 9.2L21 11L13.8 12.8L12 20L10.2 12.8L3 11L10.2 9.2L12 2Z", "solid"),
@@ -106,7 +106,7 @@ st.set_page_config(
 )
 
 # ===========================================================
-# CUSTOM CSS — modern glassmorphism + gradient theme
+# CUSTOM CSS
 # ===========================================================
 st.markdown("""
 <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -379,7 +379,7 @@ uploaded_file = st.file_uploader("Upload CSV", type=["csv"], label_visibility="c
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
 
-    # ---- Overview metrics ----
+    #Overview metrics
     n_missing = int(df.isna().sum().sum())
     st.markdown(f"""
     <div class="metric-row">
