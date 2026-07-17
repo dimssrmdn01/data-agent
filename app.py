@@ -347,10 +347,16 @@ if "messages" not in st.session_state:
 # ===========================================================
 # SIDEBAR
 # ===========================================================
+# Sidebar panel
 with st.sidebar:
     st.markdown(f'<p class="sidebar-title">{icon_label("settings", "Konfigurasi")}</p>', unsafe_allow_html=True)
-    st.markdown('<p class="sidebar-caption">Masukkan API Key untuk mengaktifkan agent.</p>', unsafe_allow_html=True)
-    groq_api_key = st.text_input("Groq API Key", type="password", placeholder="gsk_...")
+    env_api_key = os.getenv("GROQ_API_KEY")
+    if env_api_key:
+        groq_api_key = env_api_key
+        st.markdown('<p class="sidebar-caption" style="color:#10B981;">✅ API Key otomatis terdeteksi dari sistem.</p>', unsafe_allow_html=True)
+    else:
+        st.markdown('<p class="sidebar-caption">Masukkan API Key untuk mengaktifkan agent.</p>', unsafe_allow_html=True)
+        groq_api_key = st.text_input("Groq API Key", type="password", placeholder="gsk_...")
 
     st.markdown('<hr class="soft-divider">', unsafe_allow_html=True)
 
