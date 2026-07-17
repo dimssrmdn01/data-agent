@@ -58,11 +58,6 @@
 
 ---
 
-##  Demo
-> *Coming soon!*
-
----
-
 ##  Teknologi yang Digunakan
 
 ### Core Framework
@@ -254,22 +249,11 @@ furnished to do so, subject to the following conditions...
 
 ---
 
-##  Author
-**Dimas Arya Ramadhan**
-
 ##  Acknowledgements
 - [Groq](https://groq.com/) - Platform AI yang powerful
 - [LangChain](https://www.langchain.com/) - Framework LLM yang fleksibel
 - [Streamlit](https://streamlit.io/) - Framework web yang memudahkan
 - Llama-3 - Model AI yang luar biasa
-
-Dibuat dengan ❤️ oleh Dimas Arya Ramadhan
-
-##  Link Penting
-- Demo Aplikasi - Coming soon
-- [Dokumentasi Groq API](https://console.groq.com/docs)
-- [Streamlit Docs](https://docs.streamlit.io/)
-- [LangChain Docs](https://python.langchain.com/)
 
 ##  Roadmap
 - [ ] Integrasi dengan database SQL
@@ -280,3 +264,7 @@ Dibuat dengan ❤️ oleh Dimas Arya Ramadhan
 - [ ] Multi-file analysis
 - [ ] Real-time data streaming
 - [ ] Deployment di cloud (Streamlit Cloud, HuggingFace)
+
+##  Author
+**Dimas Arya Ramadhan**
+Dibuat dengan ❤️ oleh Dimas Arya Ramadhan
