@@ -8,13 +8,13 @@ def create_agent(df, api_key):
         model_name="llama3-70b-8192", 
         temperature=0 
     )
+    
     agent = create_pandas_dataframe_agent(
         llm, 
         df, 
         verbose=True, 
         allow_dangerous_code=True,
-        agent_type="tool-calling",       
-        max_iterations=3,                
+        max_iterations=4,                
         early_stopping_method="generate" 
     )
     
