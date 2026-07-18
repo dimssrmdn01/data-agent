@@ -9,13 +9,12 @@ def create_agent(df, api_key):
         temperature=0 
     )
     
-    agent = create_pandas_dataframe_agent(
+   agent = create_pandas_dataframe_agent(
         llm, 
         df, 
         verbose=True, 
         allow_dangerous_code=True,
-        max_iterations=5,
-        handle_parsing_errors=True  
+        max_iterations=10,               
+        handle_parsing_errors=True 
     )
-    
     return agent
