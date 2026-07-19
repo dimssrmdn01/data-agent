@@ -47,14 +47,14 @@
 
 | Fitur | Deskripsi |
 |-------|-----------|
-| 🧠 **Chat Memory** | AI mengingat percakapan sebelumnya untuk analisis kontekstual |
-| 🧹 **Auto-Cleaning** | Hapus missing values, duplikat, atau kolom tertentu dengan perintah |
-| 📥 **Download CSV** | Unduh hasil data yang sudah dibersihkan langsung |
-| 🔮 **Auto-EDA** | Ringkasan data otomatis begitu file diunggah |
-| 📊 **Smart Charts** | Pembuatan grafik otomatis (bar, line, scatter, histogram) |
-| 🎨 **Glassmorphism UI** | Tampilan modern dengan dark mode elegan |
-| 💬 **Natural Language** | Interaksi dengan bahasa sehari-hari |
-| ⚡ **Real-time Processing** | Analisis cepat dengan Groq API |
+|  **Chat Memory** | AI mengingat percakapan sebelumnya untuk analisis kontekstual |
+|  **Auto-Cleaning** | Hapus missing values, duplikat, atau kolom tertentu dengan perintah |
+|  **Download CSV** | Unduh hasil data yang sudah dibersihkan langsung |
+|  **Auto-EDA** | Ringkasan data otomatis begitu file diunggah |
+|  **Smart Charts** | Pembuatan grafik otomatis (bar, line, scatter, histogram) |
+|  **Glassmorphism UI** | Tampilan modern dengan dark mode elegan |
+|  **Natural Language** | Interaksi dengan bahasa sehari-hari |
+|  **Real-time Processing** | Analisis cepat dengan Groq API |
 
 ---
 
