@@ -17,7 +17,7 @@
 
 ---
 
-##  Daftar Isi
+## Daftar Isi
 - [Tentang Proyek](#-tentang-proyek)
 - [Fitur Unggulan](#-fitur-unggulan)
 - [Demo](#-demo)
@@ -32,7 +32,7 @@
 
 ---
 
-##  Tentang Proyek
+## Tentang Proyek
 **AI Data Analyst** adalah aplikasi web interaktif yang memungkinkan Anda "berbicara" langsung dengan dataset (CSV) Anda. Dibangun dengan antarmuka *Glassmorphism* modern, aplikasi ini memanfaatkan kekuatan **Groq (Llama-3)** dan **LangChain** untuk menganalisis data, membuat visualisasi, hingga membersihkan data secara otomatis tanpa Anda perlu menulis satu baris kode pun.
 
 ###  Masalah yang Dipecahkan
@@ -43,7 +43,7 @@
 
 ---
 
-##  Fitur Unggulan
+## Fitur Unggulan
 
 | Fitur | Deskripsi |
 |-------|-----------|
