@@ -32,7 +32,7 @@
 
 ---
 
-## Tentang Proyek
+##  Tentang Proyek
 **AI Data Analyst** adalah aplikasi web interaktif yang memungkinkan Anda "berbicara" langsung dengan dataset (CSV) Anda. Dibangun dengan antarmuka *Glassmorphism* modern, aplikasi ini memanfaatkan kekuatan **Groq (Llama-3)** dan **LangChain** untuk menganalisis data, membuat visualisasi, hingga membersihkan data secara otomatis tanpa Anda perlu menulis satu baris kode pun.
 
 ###  Masalah yang Dipecahkan
@@ -43,7 +43,7 @@
 
 ---
 
-## Fitur Unggulan
+##  Fitur Unggulan
 
 | Fitur | Deskripsi |
 |-------|-----------|
@@ -64,12 +64,12 @@
 - **Python 3.9+** — Bahasa pemrograman utama
 - **Streamlit** — Framework web untuk dashboard interaktif
 
-### AI & NLP
+###  AI & NLP
 - **LangChain** — Framework untuk aplikasi LLM
 - **Groq API** — Inference engine untuk Llama-3
 - **Llama-3-70B** — Model bahasa besar untuk analisis
 
-### Data Processing
+###  Data Processing
 - **Pandas** — Manipulasi dan analisis data
 - **NumPy** — Komputasi numerik
 - **Matplotlib** — Visualisasi data dasar
