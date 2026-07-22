@@ -17,7 +17,7 @@
 
 ---
 
-## Daftar Isi
+##  Daftar Isi
 - [Tentang Proyek](#-tentang-proyek)
 - [Fitur Unggulan](#-fitur-unggulan)
 - [Demo](#-demo)
@@ -43,7 +43,7 @@
 
 ---
 
-##  Fitur Unggulan
+##   Fitur Unggulan
 
 | Fitur | Deskripsi |
 |-------|-----------|
